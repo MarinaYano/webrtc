@@ -9,7 +9,6 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-
 type MeetingModalProps = {
   isOpen: boolean;
   onClose: () => void;
